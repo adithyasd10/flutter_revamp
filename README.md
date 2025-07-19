@@ -1,16 +1,17 @@
-# test_app
+# Test App
 
-A new Flutter project.
+A newly initialized Flutter project built as part of a personal development refresh.
 
-## Getting Started
+## 🚀 Getting Started
 
-This project is a starting point for a Flutter application.
+This project serves as a starting point for building Flutter applications, following best practices and a modular structure.
 
-A few resources to get you started if this is your first Flutter project:
+### 📚 Resources to Explore Flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Write your first Flutter app (Codelab)](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook (Sample Recipes)](https://docs.flutter.dev/cookbook)
+- [Flutter Documentation](https://docs.flutter.dev/) – official guides, API references, and best practices.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+> 🛠️ Whether you're revisiting Flutter or just starting out, this project is structured to help experiment, iterate, and grow your mobile development skills.
