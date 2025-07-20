@@ -2,20 +2,62 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Scaffold(
+    debugShowCheckedModeBanner: false,
+    home: Home(),
+  ));
+}
+
+class Home extends StatelessWidget {
+  const Home({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.grey[400],
       appBar: AppBar(
-        backgroundColor: Colors.blueGrey,
-        title: Text('First App'),
+        toolbarHeight: 70,
+        backgroundColor: Colors.grey[900],
+        title: Text(
+          style: TextStyle(
+            letterSpacing: 2,
+            color: Colors.grey[300],
+            
+          ),
+          'First App'),
+          centerTitle: true,
       ),
       body: Center(
-        child: Text('Hi there!!'),
+        child: ElevatedButton(
+          onPressed: () {
+            print('Clicked me');
+          },
+          style: ElevatedButton.styleFrom(
+            backgroundColor: Colors.grey[900],
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(6)
+            ),
+          ),
+          child:Row(
+            mainAxisSize: MainAxisSize.min,
+          children: 
+          [
+            Text(style: TextStyle(color: Colors.white),'hi'),
+            SizedBox(width: 8),
+            Icon(color: Colors.white ,Icons.home),
+          ],),
+          
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed:() {
         },
-        child:Text('hit me')
+        backgroundColor: Colors.grey[900],
+        child:Text(
+          style: TextStyle(
+            color: Colors.grey[300],
+          ) ,
+          'hit me')
       ),
-    ),
-    
-  ));
+    );
+  }
 }
