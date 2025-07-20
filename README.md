@@ -1,16 +1,38 @@
-# test_app
+# 🚧 Flutter Starter Kit
 
-A new Flutter project.
+A clean, modular Flutter boilerplate built to help you quickly kickstart new mobile projects or refresh your development skills. Ideal for beginners and intermediates looking to explore real-world app structure, widgets, and best practices.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📘 My Flutter Notes
 
-A few resources to get you started if this is your first Flutter project:
+I’ve created a dedicated Notion guide to help beginners get started with Flutter. It includes:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📱 Fundamentals of Flutter  
+- 🧱 Widget usage explained  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+👉 [Explore My Notion Flutter Guide](https://www.notion.so/Flutter-235c09bc058e803eb58be2d389f3204a?source=copy_link)
+
+Feel free to bookmark or share it if you're learning Flutter or mentoring others!
+
+---
+
+## 🚀 Getting Started
+
+This project serves as a starting point for building production-ready Flutter applications. You can use it to:
+
+- Learn core Flutter concepts
+- Prototype app ideas
+- Practice UI/UX design implementation
+
+---
+
+## 📚 Additional Resources
+
+- [Write your first Flutter app (Codelab)](https://docs.flutter.dev/get-started/codelab)
+- [Flutter Cookbook (Sample Recipes)](https://docs.flutter.dev/cookbook)
+- [Flutter Documentation](https://docs.flutter.dev/) – official guides, API references, and best practices
+
+---
+
+> 💡 Tip: Use this as a sandbox to experiment, iterate fast, and sharpen your mobile development workflow.
