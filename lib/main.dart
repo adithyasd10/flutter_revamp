@@ -26,16 +26,26 @@ class Home extends StatelessWidget {
           'First App'),
           centerTitle: true,
       ),
-      body:Padding(
-        padding: EdgeInsetsGeometry.all(10),
-        child:Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        crossAxisAlignment: CrossAxisAlignment.start,
+      body:Column(
+        mainAxisAlignment : MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Text('Hi'),
-          ElevatedButton(onPressed: () {}, child:Text(style: TextStyle(color:Colors.white),'Click'),style: ElevatedButton.styleFrom(backgroundColor: Colors.black),),
-          Container(padding:EdgeInsets.all(30),decoration: BoxDecoration(color: Colors.black,borderRadius: BorderRadius.circular(6)),child: Text( style: TextStyle(color: Colors.white),'inside container'),),]
-      ),
+          Container(
+            color: Colors.green[50],
+            padding: EdgeInsets.all(30.0),
+            child:Text('one')
+          ),
+          Container(
+            color: Colors.green[100],
+            padding: EdgeInsets.all(30.0),
+            child:Text('two')
+          ),
+          Container(
+            color: Colors.green[200],
+            padding: EdgeInsets.all(30.0),
+            child:Text('three')
+          )
+        ]
       ),
       
 
