@@ -7,8 +7,16 @@ void main() {
   ));
 }
 
-class Home extends StatelessWidget {
+class Home extends StatefulWidget {
   const Home({super.key});
+
+  @override
+  State<Home> createState() => _HomeState();
+}
+
+class _HomeState extends State<Home> {
+
+  int level=0;
 
   @override
   Widget build(BuildContext context) {
@@ -21,6 +29,15 @@ class Home extends StatelessWidget {
           style: TextStyle(color: Colors.grey[350],letterSpacing: 4.0),
           'PROFILE')
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          setState(() {
+            level+=1;
+          });
+        },
+        child: Icon(Icons.add),
+        backgroundColor: Colors.grey[400],
+        ),
       body: Padding(
         padding: EdgeInsetsGeometry.fromLTRB(30.0, 40.0, 30.0, 0.0),
         child: Column(
@@ -48,11 +65,11 @@ class Home extends StatelessWidget {
               SizedBox(height: 10.0),
             Text(
               style: TextStyle(color:Colors.grey[400],letterSpacing:4.0),
-              'CURRENT POSITION'),
+              'CURRENT LEVEL'),
               SizedBox(height: 12.0),
             Text(
               style: TextStyle(color:Colors.white60,letterSpacing:4.0,fontSize: 40,fontWeight:FontWeight.bold),
-              'Luffys Right Hand Man'),
+              '$level'),
             SizedBox(height: 12.0),
             Row(
               children: [
